@@ -22,6 +22,11 @@ p {
   margin: 0;
 }
 
+.navbar-light {
+  background-color: #6A5ACD !important;
+}
+
+
 .page-center {
   width: 90%;
   max-width: 1200px;
@@ -316,4 +321,3 @@ button.secondary {
   margin: 0;
   font-size: 0.875rem;
 }
-
