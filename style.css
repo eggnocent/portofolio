@@ -23,7 +23,7 @@ p {
 }
 
 .navbar-light {
-  background-color: #6A5ACD !important;
+  background-color: var(--primary) !important;
 }
 
 .page-center {
@@ -224,29 +224,6 @@ button.secondary {
 }
 
 /* Media query untuk mengatur tata letak pada berbagai ukuran layar */
-@media (min-width: 768px) {
-  .navbar-collapse {
-    justify-content: flex-end;
-  }
-  .title {
-    width: 50%;
-    margin: auto;
-  }
-
-  .project-grup {
-    width: 60%;
-    margin: auto;
-  }
-  .group-socmed {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-  .cta {
-    position: absolute;
-    left: 3.75rem;
-  }
-}
-
 @media (max-width: 768px) {
   .group-socmed {
     display: grid;
@@ -284,6 +261,27 @@ button.secondary {
 }
 
 @media (min-width: 768px) {
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+  .title {
+    width: 50%;
+    margin: auto;
+  }
+
+  .project-grup {
+    width: 60%;
+    margin: auto;
+  }
+  .group-socmed {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  .cta {
+    position: absolute;
+    left: 3.75rem;
+  }
+
   .btn {
     width: fit-content;
   }
@@ -304,6 +302,7 @@ button.secondary {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+
 .footer {
   background-color: var(--primary);
   color: var(--light);
