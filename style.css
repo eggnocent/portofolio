@@ -1,7 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
 
 * {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Libre Baskerville", sans-serif;
 }
 
 :root {
@@ -25,7 +25,6 @@ p {
 .navbar-light {
   background-color: #6A5ACD !important;
 }
-
 
 .page-center {
   width: 90%;
