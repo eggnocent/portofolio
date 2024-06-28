@@ -28,18 +28,24 @@ h2,
 h3,
 p {
   margin: 0;
-  padding-top: 70px; /* Adjust this value based on your navbar height */
+  padding: 0;
 }
 
 .navbar {
   position: fixed;
   top: 0;
+  left: 0;
+  right: 0;
   width: 100%;
   z-index: 1000;
+  background-color: var(--primary);
 }
 
-.navbar-light {
-  background-color: var(--primary) !important;
+.hero {
+  background-color: var(--primary);
+  padding: 60px 0;
+  width: 100%;
+  margin-top: 70px; /* Sesuaikan dengan tinggi navbar */
 }
 
 .page-center {
@@ -97,12 +103,6 @@ p {
 }
 .gap-60 {
   gap: 60px;
-}
-
-.hero {
-  background-color: var(--primary);
-  padding: 60px 0;
-  width: 100%;
 }
 
 .text-white {
@@ -180,7 +180,7 @@ button.secondary {
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(30px);
-  color: var (--dark);
+  color: var(--dark);
 }
 
 .glass-card img {
