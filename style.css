@@ -7,6 +7,11 @@
   padding: 0;
 }
 
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 :root {
   --primary: #6A5ACD;
   --secondary: #75e6ff;
@@ -97,6 +102,7 @@ p {
 .hero {
   background-color: var(--primary);
   padding: 60px 0;
+  width: 100%;
 }
 
 .text-white {
@@ -174,7 +180,7 @@ button.secondary {
   border-radius: 20px;
   background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(30px);
-  color: var(--dark);
+  color: var (--dark);
 }
 
 .glass-card img {
@@ -216,7 +222,7 @@ button.secondary {
   border-radius: 8px;
   padding: 1rem;
   margin: 0.5rem;
-  width: 100%; /* Ubah lebar menjadi 100% untuk tampilan mobile */
+  width: 100%;
   max-width: 200px;
   text-align: center;
   transition: transform 0.3s, background-color 0.3s, box-shadow 0.3s;
