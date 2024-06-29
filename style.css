@@ -45,7 +45,7 @@ p {
   background-color: var(--primary);
   padding: 60px 0;
   width: 100%;
-  margin-top: 70px; /* Sesuaikan dengan tinggi navbar */
+  margin-top: 10px; /* Sesuaikan dengan tinggi navbar */
 }
 
 .page-center {
