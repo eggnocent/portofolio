@@ -181,6 +181,12 @@ button.secondary {
   background: rgba(255, 255, 255, 0.7);
   backdrop-filter: blur(30px);
   color: var(--dark);
+  transition: transform 0.3s, box-shadow 0.3s; /* Tambahkan transisi untuk animasi hover */
+}
+
+.glass-card:hover {
+  transform: scale(1.05); /* Membuat card sedikit lebih besar saat di-hover */
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3); /* Menambahkan shadow saat di-hover */
 }
 
 .glass-card img {
